@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(
+    45deg,
+    #0f192a,
+    #0f192a 40%,
+    #2a3045 40%,
+    #2a3045 60%,
+    #0e617c 60%,
+    #0e617c
+  );
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
